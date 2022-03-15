@@ -1,3 +1,5 @@
+# Horned Beasts
+
 ## Lab 02
 
 ### Feature 1
@@ -18,11 +20,11 @@ Number and name of feature: Feature #2: Allow users to vote for their favorite b
 
 Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 3:05
 
-Finish time: _____
+Finish time: 3:45
 
-Actual time needed to complete: _____
+Actual time needed to complete: 40 minutes
 
 ### Featrue 3
 
