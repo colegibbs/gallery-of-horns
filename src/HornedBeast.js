@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import './HornedBeast.css'
 
 class HornedBeast extends React.Component {
@@ -17,15 +18,27 @@ class HornedBeast extends React.Component {
   render() {
     return(
       <article>
-        <h3 id="title">{this.props.title}</h3>
-        <p id="votes">{this.state.votes ? `${this.state.votes}❤️` : ''}</p>
-        <img 
-          src={this.props.imageURL} 
-          alt={this.props.alt} 
-          title={this.props.title}
-        />
-        <p>{this.props.description}</p>
-        <Button onClick={this.handleVotes}>Vote For {this.props.title}</Button>
+        <Card id="card">
+          <Card.Img 
+            id="card-img"
+            variant="top" 
+            src={this.props.imageURL} 
+            alt={this.props.alt} 
+            title={this.props.title} 
+          />
+          <Card.Body>
+            <Card.Title>{this.props.title}   {this.state.votes ? `${this.state.votes}❤️` : ''}</Card.Title>
+            <Card.Text>
+              {this.props.description}
+            </Card.Text>
+            <Button 
+              onClick={this.handleVotes} 
+              variant="primary"
+              >
+                Vote For {this.props.title}
+            </Button>
+          </Card.Body>
+        </Card>
       </article>
     );
   }
