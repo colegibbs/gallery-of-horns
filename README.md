@@ -1,4 +1,42 @@
-# Getting Started with Create React App
+## Lab 02
+
+### Feature 1
+
+Number and name of feature: Feature #1: Display images
+
+Estimate of time needed to complete: 1 hour
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+### Feature 2
+
+Number and name of feature: Feature #2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1 hour
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+### Featrue 3
+
+Number and name of feature: Feature 3: Bootstrap
+
+Estimate of time needed to complete: 1 hour
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
