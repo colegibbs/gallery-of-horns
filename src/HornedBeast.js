@@ -17,9 +17,13 @@ class HornedBeast extends React.Component {
   render() {
     return(
       <article>
-        <h3>{this.props.title}</h3>
-        <p>{this.state.votes ? `${this.state.votes}❤️` : ''}</p>
-        <img src={this.props.imageURL} alt={this.props.alt} title={this.props.title}/>
+        <h3 id="title">{this.props.title}</h3>
+        <p id="votes">{this.state.votes ? `${this.state.votes}❤️` : ''}</p>
+        <img 
+          src={this.props.imageURL} 
+          alt={this.props.alt} 
+          title={this.props.title}
+        />
         <p>{this.props.description}</p>
         <Button onClick={this.handleVotes}>Vote For {this.props.title}</Button>
       </article>
