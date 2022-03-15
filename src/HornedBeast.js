@@ -1,8 +1,8 @@
 import React from 'react';
-import photo from './profile-photo-100-100 copy.jpeg';
 
 class HornedBeast extends React.Component {
   render() {
+    const photo = this.props.url;
     return(
       <>
           <h3>{this.props.title}</h3>
