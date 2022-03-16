@@ -21,9 +21,9 @@ class HornedBeast extends React.Component {
   render() {
     return(
       <article>
-        <Card id="card">
+        <Card class="card">
           <Card.Img 
-            id="card-img"
+            class="card-img"
             variant="top" 
             src={this.props.imageURL} 
             alt={this.props.alt} 
