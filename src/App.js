@@ -18,11 +18,12 @@ class App extends React.Component{
       showModal:false,
     });
   }
-  showModal = (urlImage, title) => {
+  showModal = (urlImage, title, description) => {
     this.setState({
       showModal: true,
       urlImage: urlImage,
       title: title,
+      description: description,
     });
   }
   render() {
@@ -42,11 +43,13 @@ class App extends React.Component{
           <Modal.Title>{this.state.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+          <p>{this.state.description}</p>
             <img 
               src ={this.state.urlImage} 
               alt ={this.state.title}
               id="modal-img">
             </img>
+            {/* <p>{this.state.description}</p> */}
           </Modal.Body>
         </Modal>
       </>
