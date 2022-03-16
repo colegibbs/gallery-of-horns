@@ -1,4 +1,44 @@
-# Getting Started with Create React App
+# Horned Beasts
+
+## Lab 02
+
+### Feature 1
+
+Number and name of feature: Feature #1: Display images
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 2:30
+
+Finish time: 3:01
+
+Actual time needed to complete: 31 minutes
+
+### Feature 2
+
+Number and name of feature: Feature #2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 3:05
+
+Finish time: 3:45
+
+Actual time needed to complete: 40 minutes
+
+### Featrue 3
+
+Number and name of feature: Feature 3: Bootstrap
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 3:45
+
+Finish time: 4:45
+
+Actual time needed to complete: 1 hour
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,23 +1,25 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import './Main.css';
 
 class Main extends React.Component {
   render() {
+    console.log(this.props);
+    let beasts = this.props.data.map((beast, index) => {
+      return(
+        <HornedBeast
+          title={beast.title}
+          imageURL={beast.image_url}
+          alt={beast.keyword}
+          description={beast.description}
+          key={index}
+        />
+      );
+    });
     return (
-      <>
-        <HornedBeast 
-          title="beast 1" 
-          url="url 1"
-          alt="beast one"
-          description="description 1"
-        />
-        <HornedBeast 
-          title="beast 2" 
-          url="url 2" 
-          alt="beast two"
-          description="description 2"
-        />
-      </>
+      <main>
+        {beasts}
+      </main>
     );
   }
 }
