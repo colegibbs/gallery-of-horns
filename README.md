@@ -38,6 +38,20 @@ Finish time: 4:45
 
 Actual time needed to complete: 1 hour
 
+## Lab 03
+
+### Feature 1
+
+Number and name of feature: Feature 1: Display a Modal
+
+Estimate of time needed to complete: 3 hours
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
