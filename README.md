@@ -50,11 +50,11 @@ Number and name of feature: Feature 1: Display a Modal
 
 Estimate of time needed to complete: 3 hours
 
-Start time: _____
+Start time: 2:00
 
-Finish time: _____
+Finish time: 4:40
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hours and 40 minutes
 
 ## Getting Started with Create React App
 
