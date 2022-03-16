@@ -40,7 +40,11 @@ Actual time needed to complete: 1 hour
 
 ## Lab 03
 
-### Feature 1
+### Resources
+
+[MDN box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+### Feature 3-1
 
 Number and name of feature: Feature 1: Display a Modal
 
