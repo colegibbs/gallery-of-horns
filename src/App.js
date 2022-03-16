@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header.js';
 import Footer from './Footer.js';
 import Main from './Main.js';
-import Modal from 'react-bootstrap/Modal';
+import SelectedBeast from './SelectedBeast.js';
 import './App.css';
 import data from './data.json';
 
@@ -35,7 +35,14 @@ class App extends React.Component{
           showModal={this.showModal}
         />
         <Footer/>
-        <Modal 
+        <SelectedBeast
+          show ={this.state.showModal} 
+          hideModal={this.hideModal}
+          title={this.state.title}
+          description={this.state.description}
+          urlImage={this.state.urlImage}
+        />
+        {/* <Modal 
           show ={this.state.showModal} 
           onHide={this.hideModal}
         >
@@ -49,9 +56,9 @@ class App extends React.Component{
               alt ={this.state.title}
               id="modal-img">
             </img>
-            {/* <p>{this.state.description}</p> */}
+            <p>{this.state.description}</p>
           </Modal.Body>
-        </Modal>
+        </Modal> */}
       </>
     );
   }
