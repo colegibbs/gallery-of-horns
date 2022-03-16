@@ -18,10 +18,11 @@ class App extends React.Component{
       showModal:false,
     });
   }
-  showModal = (urlImage) => {
+  showModal = (urlImage, title) => {
     this.setState({
       showModal: true,
-      urlImage: urlImage
+      urlImage: urlImage,
+      title: title,
     });
   }
   render() {
@@ -35,7 +36,7 @@ class App extends React.Component{
         <Footer/>
         <Modal show ={this.state.showModal} onHide={this.hideModal}>
           <Modal.Header closeButton>
-          <Modal.Title>Test Title</Modal.Title>
+          <Modal.Title>{this.state.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <img src ={this.state.urlImage} alt ='beast'></img>
