@@ -15,6 +15,9 @@ class HornedBeast extends React.Component {
       votes: this.state.votes + 1,
     });
   }
+  handleShowModal = () => {
+    this.props.showModal(this.props.imageURL);
+  }
   render() {
     return(
       <article>
@@ -24,7 +27,8 @@ class HornedBeast extends React.Component {
             variant="top" 
             src={this.props.imageURL} 
             alt={this.props.alt} 
-            title={this.props.title} 
+            title={this.props.title}
+            onClick={this.handleShowModal}
           />
           <Card.Body>
             <Card.Title>{this.props.title}   {this.state.votes ? `${this.state.votes}❤️` : ''}</Card.Title>
