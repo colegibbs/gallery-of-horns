@@ -13,6 +13,7 @@ class Main extends React.Component {
           alt={beast.keyword}
           description={beast.description}
           key={index}
+          showModal={this.props.showModal}
         />
       );
     });

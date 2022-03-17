@@ -38,6 +38,24 @@ Finish time: 4:45
 
 Actual time needed to complete: 1 hour
 
+## Lab 03
+
+### Resources
+
+[MDN box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+### Feature 3-1
+
+Number and name of feature: Feature 1: Display a Modal
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 2:00
+
+Finish time: 4:40
+
+Actual time needed to complete: 2 hours and 40 minutes
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
