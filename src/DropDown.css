@@ -1,0 +1,20 @@
+.form {
+  background-color: white;
+  margin-bottom: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-top: 1.5vw;
+  height: 10vw;
+  border-radius: 20px;
+}
+
+.form-label {
+  margin-left: 3vw;
+}
+
+.form-select {
+  width: 95%;
+  height: 20%;
+  margin: auto;
+
+}
