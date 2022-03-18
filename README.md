@@ -56,6 +56,20 @@ Finish time: 4:40
 
 Actual time needed to complete: 2 hours and 40 minutes
 
+## lab 04
+
+### Feature 4 - 1
+
+Number and name of feature: Featur 1 - Filter by Number of hourns
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 2:00 pm
+
+Finish time: 4:30 pm
+
+Actual time needed to complete: 2 hours and 30 minutes
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
